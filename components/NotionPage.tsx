@@ -35,7 +35,7 @@ import { PageAside } from './PageAside'
 import { Footer } from './Footer'
 const ReactGiscus = dynamic(() => import('./ReactGiscus'))
 import { NotionPageHeader } from './NotionPageHeader'
-import { GitHubShareButton } from './GitHubShareButton'
+// import { GitHubShareButton } from './GitHubShareButton'
 
 import styles from './styles.module.css'
 

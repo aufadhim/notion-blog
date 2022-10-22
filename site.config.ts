@@ -37,16 +37,34 @@ export default siteConfig({
   // Giscus comments via Github Discusstion (optional)
   //
   // To generate the following configs, visit https://giscus.app/.
+  // giscusGithubConfig: {
+  //   repo: 'aufadhim/notion-blog',
+  //   repoId: 'MDEwOlJlcG9zaXRvcnkzNzkxNDQ0NTQ=',
+  //   category: 'Comments',
+  //   categoryId: 'DIC_kwDOFplJBs4COB_h',
+  //   mapping: 'title',
+  //   reactionsEnabled: '1',
+  //   theme: 'light',
+  //   term: null,
+  // },
+
   giscusGithubConfig: {
-    repo: 'fky2015/nexon',
-    repoId: 'MDEwOlJlcG9zaXRvcnkzNzkxNDQ0NTQ=',
-    category: 'Comments',
-    categoryId: 'DIC_kwDOFplJBs4COB_h',
-    mapping: 'title',
-    reactionsEnabled: '1',
-    theme: 'light',
-    term: null,
+    repo:"aufadhim/notion-blog",
+    repoId:"R_kgDOILiTvg",
+    category:"Announcements",
+    categoryId:"DIC_kwDOILiTvs4CR5nw",
+    mapping:"pathname",
+    // strict:"0",
+    reactionsEnabled:"1",
+    emitMetadata:"0",
+    inputPosition:"bottom",
+    theme:"light",
+    lang:"en",
+    // loading:"lazy",
+    // crossorigin:"anonymous",
   },
+
+        
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
 
